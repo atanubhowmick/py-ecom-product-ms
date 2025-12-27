@@ -1,0 +1,32 @@
+# Python
+__pycache__
+*.pyc
+.mypy_cache
+.pytest_cache
+.coverage
+htmlcov/
+.tox/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+# Use 'venv/' or the specific name of your virtual environment folder
+venv/
+.venv/
+env/
+.env/
+
+# IDE specific files
+.idea/  # JetBrains/PyCharm
+.vscode/ # VS Code
+
+# OS generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# FastAPI/Project specific
+# If you are using a local SQLite database file, add it here (e.g., test.db)
+# test.db 
+# docs_build/
+# site_build/
