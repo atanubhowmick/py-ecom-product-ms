@@ -6,6 +6,7 @@ class ProductDetails(BaseModel):
     id: int
     name: str
     details: str
+    price: float
     available_qty: int
 
     # do not need init method. pydantic will create itself
